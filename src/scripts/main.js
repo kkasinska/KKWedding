@@ -36,11 +36,11 @@ function googleMapInit() {
 
   function init(){
     var lat = {
-        lat: 43.674,
-        lng: -73.945
+        lat: 50.072503,
+        lng: 19.917037
     }
     var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 12,
+        zoom: 14,
         center: lat,
         styles: [{
             "elementType": "geometry",
