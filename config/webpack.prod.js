@@ -99,7 +99,7 @@ module.exports = {
 
   plugins: getPagesPath().reduce(
     (memo, name) => {
-      const filename = name.match(/pages(.+).hbs$/)
+      const filename = name.match(/\/pages\/(.+).hbs$/)
       memo.push(
         new HtmlWebpackPlugin({
           filename: filename[1] + '.html',
