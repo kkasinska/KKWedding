@@ -51,7 +51,7 @@ Create a new file named `custom_page.hbs` inside the pages folder.
 
 ```html
 {{!-- Add meta/html pages for constistency --}}
-{{> metaHeader title='Title page' description="description"}}
+{{> metaHeader title='Title page' description="Psychoterapia w Krakowie."}}
 
 {{!-- Add the menu for constistency --}}
 {{> header }}
